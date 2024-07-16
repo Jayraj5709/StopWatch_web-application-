@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javaScript Stopwatch App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="watch-container">
+        <div class="project-heading">
+            <h1> Stopwatch </h1>
+        </div>
+        
+        <p><span class="min-width" id="outputHour">0<small>h</small></span> : <span class="min-width" id="outputMinute">0<small>m</small></span> : <span class="min-width" id="outputSec">0<small>s</small></span>  <span id="outputMilisec">0<small>ms</small></span></p>
+        <div class="stopwatch-buttons">
+            <button onclick="StartClock()" class="clock-button" id="startBtn">Start</button>
+            <button onclick="StopClock()" class="clock-button" id="stopBtn">Stop</button>
+            <button onclick="ResetClock()" class="clock-button" id="resetBtn">Reset</button>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
